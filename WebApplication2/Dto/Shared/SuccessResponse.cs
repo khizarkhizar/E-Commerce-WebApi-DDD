@@ -1,0 +1,13 @@
+namespace WebApplication2.Dtos.Responses.Shared
+{
+    public class SuccessResponse : AppResponse
+    {
+        public SuccessResponse() : base(true)
+        {
+        }
+
+        public SuccessResponse(string message) : base(true, message)
+        {
+        }
+    }
+}
